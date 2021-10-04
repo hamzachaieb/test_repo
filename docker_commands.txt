@@ -1,0 +1,17 @@
+# Login
+sudo docker login
+
+# Images
+sudo docker images
+
+# Containers
+sudo docker ps
+
+# Run
+sudo docker run -it --rm -p 8888:8888 hamzachaieb/jupyter_spark:version1
+
+# commit
+sudo docker commit 1f4d4070b90e hamzachaieb/jupyter_spark:version1
+
+# push
+sudo docker push hamzachaieb/jupyter_spark:version1
